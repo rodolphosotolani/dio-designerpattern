@@ -1,12 +1,11 @@
 package br.com.rts.estudos.designerpatterns.entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-@Data
+@Getter
+@Setter
+@ToString
 @Builder(toBuilder = true)
 @Table
 @Entity
